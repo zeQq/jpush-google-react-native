@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
 
     <permission
         android:name="${applicationId}.permission.JPUSH_MESSAGE"
@@ -27,17 +28,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <application>
-        <activity
-            android:name="cn.jpush.android.ui.PopWinActivity"
-            android:exported="true"
-            android:theme="@style/MyDialogStyle" >
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="cn.jpush.android.ui.PopWinActivity" />
-                <category android:name="${applicationId}" />
-            </intent-filter>
-        </activity>
-
         <activity
             android:name="cn.jpush.android.ui.PushActivity"
             android:configChanges="orientation|keyboardHidden"
