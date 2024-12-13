@@ -9,13 +9,13 @@
 ## 1. 安装
 
 ```
-npm install jpush-react-native --save
+npm install jpush-google-react-native --save
 ```
 
-* 注意：如果项目里没有jcore-react-native，需要安装
+* 注意：如果项目里没有jcore-google-react-native，需要安装
 
   ```
-  npm install jcore-react-native --save
+  npm install jcore-google-react-native --save
   ```
 安装完成后连接原生库
 进入到根目录执行<br/>
